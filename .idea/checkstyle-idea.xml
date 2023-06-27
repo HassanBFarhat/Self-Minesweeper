@@ -5,11 +5,14 @@
     <scanScope>JavaOnly</scanScope>
     <copyLibs>true</copyLibs>
     <option name="thirdPartyClasspath" />
-    <option name="activeLocationIds" />
+    <option name="activeLocationIds">
+      <option value="4bdd897f-7214-4045-b87c-68d65a50cbb5" />
+    </option>
     <option name="locations">
       <list>
         <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
         <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="4bdd897f-7214-4045-b87c-68d65a50cbb5" type="LOCAL_FILE" scope="All" description="tcss360 CheckStyle Guidelines">$USER_HOME$/Downloads/tcss305_checkstyle_sameline.xml</ConfigurationLocation>
       </list>
     </option>
   </component>
