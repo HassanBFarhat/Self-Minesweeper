@@ -76,21 +76,30 @@ public class MinesweeperHintField {
                 new FileWriter("team_minesweeper_output.txt", true);
         final PrintWriter printWriter = new PrintWriter(fw);
         final StringBuilder sb = new StringBuilder();
-        printWriter.println("Field #" + myFieldNumber + ": ");
+
+
+
+//        printWriter.println("Field #" + myFieldNumber + ": ");
+        System.out.println("\nField #" + myFieldNumber + ": ");
+
+
         for (int row = 1; row < (theCurrentRow - 1); row++) {
             for (int col = 1; col < (theCurrentCol - 1); col++) {
                 if (theInputedMineField[row][col].equals(ASTERISK)) {
-                    sb.append(ASTERISK);
+//                    sb.append(ASTERISK);
+                    System.out.print(ASTERISK);
                 } else {
                     int mineCount = hintCounter(row, col, theInputedMineField);
-                    sb.append(mineCount);
+//                    sb.append(mineCount);
+                    System.out.print(mineCount);
                 }
             }
-            printWriter.println(sb.toString());
-            sb.setLength(0);
+//            printWriter.println(sb.toString());
+//            sb.setLength(0);
+            System.out.println();
         }
-        printWriter.println();
-        printWriter.close();
+//        printWriter.println();
+//        printWriter.close();
         myFieldNumber++;
     }
 
