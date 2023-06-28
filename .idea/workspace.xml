@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320778a0-edd5-4179-8663-fbba050dda7b" name="Changes" comment="nineth commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinesweeperHintField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperHintField.java" afterDir="false" />
-    </list>
+    <list default="true" id="320778a0-edd5-4179-8663-fbba050dda7b" name="Changes" comment="tenth commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687830560762</updated>
       <workItem from="1687830561834" duration="4476000" />
-      <workItem from="1687926991310" duration="400000" />
+      <workItem from="1687926991310" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1687832703640</created>
@@ -149,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687926503009</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tenth commit">
+      <created>1687927468294</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687927468294</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +197,8 @@
     <MESSAGE value="seventh commit" />
     <MESSAGE value="eighth commit" />
     <MESSAGE value="nineth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="nineth commit" />
+    <MESSAGE value="tenth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tenth commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
