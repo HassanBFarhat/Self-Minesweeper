@@ -20,8 +20,8 @@ public final class Main {
                 break;
             }
             final String[][] inputArr = new String[currentRows][currentCols];
-            mf.addBufferToInputMineField(inputArr, currentRows, currentCols, scanner);
-            mf.generatorHintedMineField(inputArr, currentRows, currentCols);
+            mf.addBufferAroundMineField(inputArr, currentRows, currentCols, scanner);
+            mf.generateHintedMineField(inputArr, currentRows, currentCols);
         } while (currentRows != 2 && currentCols != 2);
     }
 }

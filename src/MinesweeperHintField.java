@@ -14,7 +14,7 @@ public class MinesweeperHintField {
     }
 
 
-    public final void addBufferToInputMineField(final String[][] theArray,
+    public final void addBufferAroundMineField(final String[][] theArray,
                                                 final int theCurrentRows,
                                                 final int theCurrentCols,
                                                 final Scanner theScanner) throws IOException {
@@ -69,7 +69,7 @@ public class MinesweeperHintField {
     }
 
 
-    public final void generatorHintedMineField( final String[][] theInputedMineField,
+    public final void generateHintedMineField( final String[][] theInputedMineField,
                                                 final int theCurrentRow,
                                                 final int theCurrentCol) throws IOException {
         final FileWriter fw =
