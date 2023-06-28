@@ -7,7 +7,7 @@ public class MinesweeperHintField {
 
     private int myFieldNumber;
 
-    private  static final String ASTERISK = "*";
+    private static final String ASTERISK = "*";
 
     MinesweeperHintField() {
         myFieldNumber = 1;

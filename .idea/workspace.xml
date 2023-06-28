@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320778a0-edd5-4179-8663-fbba050dda7b" name="Changes" comment="sixth commit" />
+    <list default="true" id="320778a0-edd5-4179-8663-fbba050dda7b" name="Changes" comment="seventh commit">
+      <change beforePath="$PROJECT_DIR$/src/MinesweeperHintField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperHintField.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687922399504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="seventh commit">
+      <created>1687923008500</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687923008500</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +169,8 @@
     <MESSAGE value="fourth commit" />
     <MESSAGE value="fifth commit" />
     <MESSAGE value="sixth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="sixth commit" />
+    <MESSAGE value="seventh commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="seventh commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
