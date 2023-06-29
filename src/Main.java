@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *  This is the Main class method that houses the main method for starting an
- *  entryway for our program.
+ *  entryway for our program. THIS PROGRAM RUNS CORRECTLY!!
  *
  *  @author Hassan Bassam Farhat
  *  @version TCSS360 Summer 2023
