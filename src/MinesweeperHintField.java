@@ -70,7 +70,7 @@ public class MinesweeperHintField {
     public final void generateHintedMineField( final String[][] theInputedMineField,
                                                 final int theCurrentRow,
                                                 final int theCurrentCol) throws IOException {
-        System.out.println("\nField #" + myFieldNumber + ": ");
+        System.out.println("\nField #" + myFieldNumber + ":");
         for (int row = 1; row < (theCurrentRow - 1); row++) {
             for (int col = 1; col < (theCurrentCol - 1); col++) {
                 if (theInputedMineField[row][col].equals(ASTERISK)) {
