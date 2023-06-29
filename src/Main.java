@@ -21,14 +21,14 @@ public final class Main {
         if (theArgs.length == 1) {
             scanner = new Scanner(new File(theArgs[0]));
         }
-        int currentRows = scanner.nextInt() + 2;
-        int currentCols = scanner.nextInt() + 2;
-        while (currentRows != 2 && currentCols != 2) {
+        int currentRows;
+        int currentCols;
+        do {
+            currentRows = scanner.nextInt() + 2;
+            currentCols = scanner.nextInt() + 2;
             final String[][] inputArr = new String[currentRows][currentCols];
             mf.addBufferAroundMineField(inputArr, currentRows, currentCols, scanner);
             mf.generateHintedMineField(inputArr, currentRows, currentCols);
-            currentRows = scanner.nextInt() + 2;
-            currentCols = scanner.nextInt() + 2;
-        }
+        } while (currentRows != 2 && currentCols != 2);
     }
 }
