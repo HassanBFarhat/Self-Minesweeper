@@ -2,6 +2,13 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ *  This is the Main class method that houses the main method for starting an
+ *  entryway for our program.
+ *
+ *  @author Hassan Bassam Farhat
+ *  @version TCSS360 Summer 2023
+ */
 public final class Main {
 
     private Main() {
