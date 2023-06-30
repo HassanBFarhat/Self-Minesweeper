@@ -95,7 +95,8 @@ public class MinesweeperHintField {
     public final void generateHintedMineField(final String[][] theInputtedMineField,
                                                 final int theCurrentRow,
                                                 final int theCurrentCol) {
-        System.out.println("\nField #" + myFieldNumber + ":");
+
+        System.out.println("Field #" + myFieldNumber + ":");
         for (int row = 1; row < (theCurrentRow - 1); row++) {
             for (int col = 1; col < (theCurrentCol - 1); col++) {
                 // if the current element in the 2D-array is an "*", then we will

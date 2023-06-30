@@ -26,9 +26,13 @@ public final class Main {
         do {
             currentRows = scanner.nextInt() + 2;
             currentCols = scanner.nextInt() + 2;
+            if (currentRows == 2 && currentCols == 2) {
+                break;
+            }
             final String[][] inputArr = new String[currentRows][currentCols];
             mf.addBufferAroundMineField(inputArr, currentRows, currentCols, scanner);
             mf.generateHintedMineField(inputArr, currentRows, currentCols);
+            System.out.println();
         } while (currentRows != 2 && currentCols != 2);
     }
 }

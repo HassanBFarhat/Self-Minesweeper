@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320778a0-edd5-4179-8663-fbba050dda7b" name="Changes" comment="fourteenth commit">
+    <list default="true" id="320778a0-edd5-4179-8663-fbba050dda7b" name="Changes" comment="fifteenth commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinesweeperHintField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperHintField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team_minesweeper_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team_minesweeper_output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +103,16 @@
       <workItem from="1687926991310" duration="504000" />
       <workItem from="1688008582823" duration="666000" />
       <workItem from="1688010928411" duration="4616000" />
-      <workItem from="1688052970772" duration="183000" />
+      <workItem from="1688052970772" duration="482000" />
+      <workItem from="1688062068769" duration="107000" />
+      <workItem from="1688079790768" duration="39000" />
+      <workItem from="1688079977274" duration="8000" />
+      <workItem from="1688080000839" duration="2000" />
+      <workItem from="1688080018686" duration="13000" />
+      <workItem from="1688080248873" duration="9000" />
+      <workItem from="1688080533484" duration="2025000" />
+      <workItem from="1688087950764" duration="527000" />
+      <workItem from="1688088796073" duration="3372000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1687832703640</created>
@@ -179,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688015347483</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fifteenth commit">
+      <created>1688053400338</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688053400338</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +252,8 @@
     <MESSAGE value="twelfth commit" />
     <MESSAGE value="thirteenth commit" />
     <MESSAGE value="fourteenth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fourteenth commit" />
+    <MESSAGE value="fifteenth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fifteenth commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
